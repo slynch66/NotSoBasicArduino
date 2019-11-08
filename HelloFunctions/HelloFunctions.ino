@@ -1,11 +1,15 @@
-
+//Hello Functions
+//Sean Lynch
+// This will take a distance manually, and control an LED based on distance.
+// This code uses functions (for the first time) to do these actions.
 
 const int trigPin = 9;
 const int echoPin = 10;
 const int ledPin = 5;
 long duration;
-int distance;
+int distance;  //this is the variable to store a distance in cm
 int cm = 0;
+
 void setup()
 {
 	pinMode(trigPin, OUTPUT);
