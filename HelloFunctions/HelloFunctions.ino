@@ -10,7 +10,7 @@ long duration;
 int distance;  //this is the variable to store a distance in cm
 int cm = 0;
 
-void setup()
+void setup()     
 {
 	pinMode(trigPin, OUTPUT);
 	pinMode(echoPin, INPUT);
@@ -22,11 +22,11 @@ void loop()
 {
 	cm = getDistance();
 	
-	if (cm < 15)
+	if (cm < 15)     //if the distance is less than 15cm, light up the LED
 	{
 	digitalWrite(ledPin,HIGH);
 	}
-	else if (cm > 15)
+	else if (cm > 15)     //if the distance is more than 15cm, turn off the LED
 		{
 		digitalWrite(ledPin,LOW);
 		}
@@ -36,14 +36,14 @@ void loop()
 
 
 
-int getDistance()
+int getDistance()   //new function I made to compact the code up top, put this command in up top and it does what the code down here says
 {
-	digitalWrite(trigPin, LOW);
+	digitalWrite(trigPin, LOW);        //Echolocation
 	delayMicroseconds(2);
 	digitalWrite(trigPin, HIGH);
 	delayMicroseconds(10);
 	digitalWrite(trigPin, LOW);
 	duration = pulseIn(echoPin, HIGH);
 	distance = duration * 0.034/2;
-	return distance;
+	return distance;   //Returning the new number for distance
 }
