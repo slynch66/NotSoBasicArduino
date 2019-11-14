@@ -1,8 +1,8 @@
 # NotSoBasicArduino
 
-    Not so basic arduino was first review, and then quickly got into
-    using arduino along with the technology we'll be using for the 
-    Ultrasonic Sensor project.
+    Not so basic arduino was an arduino module that was at first review,
+    and then quickly got into using arduino along with the technology
+    we'll be using for the Ultrasonic Sensor Project.
     
 ## Hello Functions
 
@@ -26,3 +26,10 @@ sensor.
 
 ### Lesson Learned
 
+ It is very helpful to convert coded commands into functions.
+Convert your commands into functions, then test each function individually
+to make sure they work. This frees up space for the logic code at the top 
+(w/ if and else statements). This simplifies and compacts your code, while
+making problems with the code easier to fix.
+
+## 
