@@ -6,17 +6,16 @@
 NewPing myHCSR04(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
 
 int ButtonState = 0;
-int ServoPin = 9;
+
 void setup() {
  Serial.begin(9600);
  pinMode(12,INPUT);
  pinMode(11,OUTPUT);
- pinMode(ServoPin,OUTPUT);
  pinMode(5,INPUT);
 }
 
 void loop() {
-     if(ButtonState == 1){
+     if(ButtonState == 1){             // if the button is pressed, print out the distance from the ultrasonic sensor
      Serial.println(myHCSR04.ping_cm());
      }
      delay(150); 
