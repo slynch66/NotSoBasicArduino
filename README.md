@@ -1,7 +1,7 @@
 # NotSoBasicArduino
 
-    Not so basic arduino was an arduino module that was at first review,
-    and then quickly got into using arduino along with the technology
+Not so basic arduino was an arduino module that was at first review,
+and then quickly got into using arduino along with the technology
     we'll be using for the Ultrasonic Sensor Project.
     
 ## Hello Functions
