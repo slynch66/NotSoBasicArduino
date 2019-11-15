@@ -42,6 +42,7 @@ so every time I pressed the button, the ultrasonic sensor would print out a dist
 on the serial monitor.
 
 ### Commented Code
+<img src="NewPing/CommentedCode" width="400px"/>
 
 ### Wiring Diagram
 
