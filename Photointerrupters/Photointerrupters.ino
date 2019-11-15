@@ -11,7 +11,11 @@ pinMode(photoPin, INPUT_PULLUP);
 
 }
 void loop() {
-attachInterrupt(digitalPinToInterrupt(1), ++Number, LOW);
+attachInterrupt(digitalPinToInterrupt(1), ++Number, LOW);  
+// This line fixes the timing problem and interrupts what 
+// the photointerrupter is doing in order to catch the
+// interrupt in the beam.
+	
 Serial.println(Number);
 	
 }
