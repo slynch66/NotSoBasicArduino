@@ -32,10 +32,6 @@ void loop()
 		}
 }
 
-
-
-
-
 int getDistance()   //new function I made to compact the code up top, put this command in up top and it does what the code down here says
 {
 	digitalWrite(trigPin, LOW);        //Echolocation
