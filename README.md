@@ -41,6 +41,10 @@ I wired up a button as well as the ultrasonic sensor to the arduino. I then code
 so every time I pressed the button, the ultrasonic sensor would print out a distance
 on the serial monitor.
 
+### Commented Code
+
+### Wiring Diagram
+
 ### Lessons Learned
 
 The main thing I learned from NewPing was how to take a distance measurement,
