@@ -16,7 +16,7 @@ void setup() {
  pinMode(5,INPUT);
 }
 
-void loop() {
+void loop() {                   //echolocation
      if(ButtonState == 1){
      val = analogRead(potPin);
      Serial.println(myHCSR04.ping_cm());
