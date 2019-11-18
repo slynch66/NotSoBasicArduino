@@ -15,14 +15,12 @@ function to take the distance of an object from the sensor.
  ### Code Screenshot
  
  <img src="HelloFunctions/Media/HelloFunctionsCodeScreenshot.PNG" width="392px"/>
+    you can view the entire code here
+    (https://github.com/slynch66/NotSoBasicArduino/blob/master/HelloFunctions/HelloFunctions.ino)
  
  ### Wiring Diagram
  
  <img src="HelloFunctions/Media/WiringDiagram.PNG" width="400px"/>
- 
- ### Commented Code
-
-<img src="HelloFunctions/HelloFunctions.CommentedCode" width="400px"/>
 
 ### Lesson Learned
 
