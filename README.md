@@ -60,6 +60,13 @@ For this assignment, I had to learn how to use a photointerrupter. I wired it
 up to the arduino and using an interrupt command, had it print out a 1 if something
 was inbetween the arms of the photointerrupter.
 
+### Commented Code
+You can find the commented code here at 
+(https://github.com/slynch66/NotSoBasicArduino/blob/master/Photointerrupters/CommentedCode.ino)
+
+### Wiring Diagram
+<img src="Photointerrupters/PhotointerrupterWiringDiagram.png" width="300px" height="200px" />
+
 ### Lessons Learned
 
 * The photointerrupter works by shooting a continuos beam of light from one arm to
