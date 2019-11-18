@@ -1,4 +1,0 @@
-      It is very helpful to convert your commands into functions.
-Convert your commands into functions, then test each function individually
-to make sure they work. This frees up space for the logic code at the top 
-(w/ if and else statements). This simplifies and compacts your code.
